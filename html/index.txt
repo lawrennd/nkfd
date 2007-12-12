@@ -10,7 +10,7 @@
 
 RELEASEINFORMATION
 
-<p>First release in response to a request for the code. Code was written in 2000 but is being released for first time in 2007.
+<p>First release in response to a request for the code. Code was written in 2000 but is being released for first time in 2007. The code is heavily based on the NETLAB toolbox, to such an extent that copyright from NETLAB probably applies to large portions of this software. Please see GPL licenses on that software for details of the implications of this.
 
 <h2>Examples</h2>
 
