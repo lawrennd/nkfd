@@ -1,0 +1,9 @@
+# These are files that should be packaged for the GP software
+dir: html
+~/mlprojects/nkfd/html/index.html
+~/mlprojects/nkfd/html/demNkfd1_1.png
+~/mlprojects/nkfd/html/demNkfd1_2.png
+~/mlprojects/nkfd/html/demNkfd1_3.png
+~/mlprojects/nkfd/html/demNkfd1_4.png
+~/mlprojects/nkfd/html/demNkfdFourNine_1.png
+~/mlprojects/nkfd/html/demNkfdFourNine_2.png
