@@ -1,6 +1,11 @@
 function [post, a] = nkfdPost(mix, x, t)
 
 % NKFDPOST Computes the class posterior probabilities of a KFD Model.
+%
+% COPYRIGHT : Ian T. Nabney, 1996-2001
+%
+% COPYRIGHT : Neil D. Lawrence, 2000
+%
   
 % NKFD
 
