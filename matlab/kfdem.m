@@ -4,7 +4,6 @@ function [mix, options, errlog] = kfdem(mix, x, t, options)
 
 % Based on NETLAB code.
   
-% NKFD
 % Check that inputs are consistent
 errstring = consist(mix, 'gmm', x);
 if ~isempty(errstring)

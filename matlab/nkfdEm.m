@@ -1,6 +1,11 @@
 function [mix, options, errlog] = nkfdEm(mix, x, t, options)
 
 % NKFDEM Noisy Kernel Fisher Discriminant EM algorithm.
+%
+% COPYRIGHT : Ian T. Nabney, 1996-2001
+%
+% COPYRIGHT : Neil D. Lawrence, 2000
+%
 
 % Based on NETLAB code.
   

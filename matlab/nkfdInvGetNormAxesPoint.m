@@ -1,6 +1,8 @@
 function point = nkfdInvGetNormAxesPoint(axesPoint, axesHandle)
 
 % NKFDINVGETNORMAXESPOINT Take a point on a plot and return a point within the figure.
+%
+% COPYRIGHT : Neil D. Lawrence, 2000
 
 % NKFD
   

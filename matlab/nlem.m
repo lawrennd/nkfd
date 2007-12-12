@@ -1,7 +1,23 @@
 function [mix, options, errlog] = nlem(mix, x, t, options)
 
 % NLEM Noisy label EM algorithm for full covariance Gaussian model.
-
+% FORMAT
+% DESC runs the EM algorithm on a noisily labelled model.
+% ARG mix : the mixture model structure.
+% ARG x : the input data.
+% ARG t : the label data.
+% ARG options : vector of options.
+% RETURN mix : optimised mixture model.
+% RETURN options : options vector.
+% RETURN errlog : log of errors.
+%
+% COPYRIGHT : Ian T. Nabney, 1996-2001
+%
+% COPYRIGHT : Neil D. Lawrence, 2000
+%
+% SEEALSO : gmmem, nkfdEm
+  
+  
 % NKFD
 
 % Based on Netlab code.

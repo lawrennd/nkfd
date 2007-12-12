@@ -1,6 +1,11 @@
 function [post, a] = nlpost(mix, x, t)
 
 % NLPOST Computes the posteriors for a noiseylabel model
+%
+% COPYRIGHT : Ian T. Nabney, 1996-2001
+%
+% COPYRIGHT : Neil D. Lawrence, 2000
+%
 
 % NKFD
   

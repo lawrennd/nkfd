@@ -4,5 +4,5 @@ importLatest('netlab');
 importLatest('ndlutil');
 importLatest('mltools');
 importLatest('optimi');
-importTool('datasets');
+importLatest('datasets');
 importLatest('kern');
