@@ -4,7 +4,7 @@ function [a, lna] = nkfdActiv(mix, x)
 %
 % COPYRIGHT : Ian T. Nabney, 1996-2001
 %
-% COPYRIGHT : Neil D. Lawrence, 2000
+% COPYRIGHT : Neil D. Lawrence, 2000-2001
 %
 
 % NKFD

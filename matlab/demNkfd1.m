@@ -1,6 +1,6 @@
 % DEMNKFD1 Demonstration of noise model with Gaussian distributions. First demo in ICML paper.
 %
-% COPYRIGHT : Neil D. Lawrence, 2000
+% COPYRIGHT : Neil D. Lawrence, 2000-2001
 
 % NKFD
 

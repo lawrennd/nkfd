@@ -1,6 +1,6 @@
 % DEMNKFD2 Demonstration of noise model with Gaussian distributions. 
 %
-% COPYRIGHT : Neil D. Lawrence, 2000
+% COPYRIGHT : Neil D. Lawrence, 2000-2001
 
 % NKFD
 

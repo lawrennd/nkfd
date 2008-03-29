@@ -2,7 +2,7 @@ function nkfdClassVisualise(call)
 
 % NKFDCLASSVISUALISE Sets up visualisation of decision boundary for NKFD model.
 %
-% COPYRIGHT : Neil D. Lawrence, 2000
+% COPYRIGHT : Neil D. Lawrence, 2000-2001
   
 % NKFD
   

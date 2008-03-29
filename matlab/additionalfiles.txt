@@ -1,4 +1,4 @@
-# These are files that should be packaged for the GP software
+# These are files that should be packaged for the NKFD software
 dir: html
 ~/mlprojects/nkfd/html/index.html
 ~/mlprojects/nkfd/tex/diagrams/demNkfd1_1.png

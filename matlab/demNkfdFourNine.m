@@ -1,6 +1,6 @@
 % DEMNKFDFOURNINE Compare classification of USPS 4 vs 9 for a range of noise values.
 %
-% COPYRIGHT : Neil D. Lawrence, 2000
+% COPYRIGHT : Neil D. Lawrence, 2000-2001
 
 % NKFD
 

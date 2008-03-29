@@ -4,7 +4,7 @@ function [mix, options, errlog] = nkfdEm(mix, x, t, options)
 %
 % COPYRIGHT : Ian T. Nabney, 1996-2001
 %
-% COPYRIGHT : Neil D. Lawrence, 2000
+% COPYRIGHT : Neil D. Lawrence, 2000-2001
 %
 
 % Based on NETLAB code.
