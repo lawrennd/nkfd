@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>nkfd by lawrennd</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>nkfd</h1>
+        <p>MATLAB Code for Kernel linear discriminant analysis with Noisy Labels.</p>
+
+        <p class="view"><a href="https://github.com/lawrennd/nkfd">View the Project on GitHub <small>lawrennd/nkfd</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/lawrennd/nkfd/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/lawrennd/nkfd/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/lawrennd/nkfd">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="noisy-kernel-fishers-discriminant" class="anchor" href="#noisy-kernel-fishers-discriminant" aria-hidden="true"><span class="octicon octicon-link"></span></a>Noisy Kernel Fisher's Discriminant</h1>
+
+<p>This page describes examples of how to use the Noisy Kernel Fisher's Discriminant Software (NKFD).</p>
+
+<p>The NKFD software can be downloaded here.</p>
+
+<h2>
+<a id="release-information" class="anchor" href="#release-information" aria-hidden="true"><span class="octicon octicon-link"></span></a>Release Information</h2>
+
+<p>Current release is 0.1.</p>
+
+<p>As well as downloading the NKFD software you need to obtain the toolboxes specified below. These can be downloaded using the <em>same</em> password you get from registering for the NKFD software.</p>
+
+<table>
+<thead>
+<tr>
+<th><strong>Toolbox</strong></th>
+<th><strong>Version</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/netlab/downloadFiles/vrs3p3">NETLAB</a></td>
+<td>3.3</td>
+</tr>
+<tr>
+<td><a href="/ndlutil/downloadFiles/vrs0p157">NDLUTIL</a></td>
+<td>0.157</td>
+</tr>
+<tr>
+<td><a href="/mltools/downloadFiles/vrs0p127">MLTOOLS</a></td>
+<td>0.127</td>
+</tr>
+<tr>
+<td><a href="/optimi/downloadFiles/vrs0p132">OPTIMI</a></td>
+<td>0.132</td>
+</tr>
+<tr>
+<td><a href="/datasets/downloadFiles/vrs0p131">DATASETS</a></td>
+<td>0.131</td>
+</tr>
+<tr>
+<td><a href="/kern/downloadFiles/vrs0p167">KERN</a></td>
+<td>0.167</td>
+</tr>
+</tbody>
+</table>
+
+<p>First release in response to a request for the code. Code was written in 2000 but is being released for first time in 2007. The code is heavily based on the NETLAB toolbox, to such an extent that copyright from NETLAB probably applies to large portions of this software. Please see GPL licenses on that software for details of the implications of this.</p>
+
+<h2>
+<a id="examples" class="anchor" href="#examples" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples</h2>
+
+<h3>
+<a id="mixture-of-gaussian-example" class="anchor" href="#mixture-of-gaussian-example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mixture of Gaussian Example</h3>
+
+<p>Run with demNkfd1. Recreates the toy problem results in the paper.</p>
+
+<div class="highlight highlight-matlab"><pre><span class="pl-k">&gt;&gt; </span>demNkfd1</pre></div>
+
+<p>The results of the script are given in the plot below.</p>
+
+<p><img src="demNkfd1_1.png" alt=""><img src="demNkfd1_2.png" alt="">
+ <img src="demNkfd1_3.png" alt=""><img src="demNkfd1_4.png" alt=""> Results from the first toy problem in the ICML 2001 paper.</p>
+
+<h3>
+<a id="usps-example" class="anchor" href="#usps-example" aria-hidden="true"><span class="octicon octicon-link"></span></a>USPS Example</h3>
+
+<p>Run with demNkfdFourNine. I don't have access to the Cedar CDROM data, but this is a recreation of that experiment with the USPS digits four and nine.</p>
+
+<div class="highlight highlight-matlab"><pre><span class="pl-k">&gt;&gt; </span>demNkfdFourNine </pre></div>
+
+<p>The results of the script are given in the plot below.</p>
+
+<p><img src="demNkfdFourNine_1.png" alt=""><img src="demNkfdFourNine_2.png" alt=""></p>
+
+<h3>
+<a id="sky-example" class="anchor" href="#sky-example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sky Example</h3>
+
+<p>Another data set where I currently have no access to the data. Will release if I can find it again!</p>
+
+<p>Page updated on Wed Dec 12 05:12:33 2007</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/lawrennd">lawrennd</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-62968536-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
